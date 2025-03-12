@@ -11,4 +11,9 @@ public class TestingController {
 	public String getMessage() {
 		return "Helllo ";
 	}
+	
+	@GetMapping("/post")
+	public String getPost() {
+		return "Helllo from post method";
+	}
 }
